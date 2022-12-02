@@ -1,10 +1,14 @@
 pipeline {
 
-    agent any
-/*
-	tools {
-        maven "maven3"
-    }
+agent any
+
+     tools{
+
+        maven "MAVEN3"
+
+        jdk "OracleJDK8"
+
+     }
 */
     environment {
         registry = "katvik001/vproappdock"
